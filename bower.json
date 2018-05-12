@@ -1,0 +1,26 @@
+{
+  "name": "finly",
+  "description": "HTML Template",
+  "main": "index.html",
+  "authors": [
+    "Dsantoz <adiexzdsantoz9798@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "homepage": "https://github.com/Dsantoz/finly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^5.0.13"
+  }
+}

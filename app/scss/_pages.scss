@@ -1,0 +1,186 @@
+#pages {
+    background: lightgrey;
+    width: 100%;
+
+    .container-fluid {
+        height: 680px;
+        padding: 0;
+
+        header {
+            padding: 23px 0;
+
+            h1 {
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+        
+        .mainContent {
+            margin-top: 40px;
+            width: 98.87%;
+            height: 450px;
+
+            .row {
+                height: 100%;
+                padding: 0 20px 0 40px;
+
+                .col-sm-6{
+
+                    .card {
+                        height: 100%;
+                        transition: all 0.35s ease-in-out;
+
+                        img {
+                            height: 300px;
+                        }
+
+                        i {
+                            opacity: 0.35;
+                            transition: all 0.35s ease-in-out;
+                        }
+
+                        .card-body {
+
+                            h2 {
+                                font-weight: bold;
+                            }
+                        }
+    
+                        &:hover, &:focus, &:active, {
+                            margin-top: -10px;
+                            border-color:rgba (0, 0, 0, 0.02);
+                            box-shadow: 0 5px 28px rgba(0, 0, 0, 0.08);
+            
+                            i {
+                                color: $w;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    .cRight {
+                        opacity: 0;
+                        transform: translate(-35px, 0);
+                        transition: 1s;
+                    }
+
+                    .cLeft {
+                        opacity: 0;
+                        transform: translate(35px, 0);
+                        transition: 1s;
+                    }
+
+                    .cShow {
+                        opacity: 1;
+                        transform: translate(0,0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199.98px) { 
+
+}
+
+@media screen and (max-width: 991.98px) { 
+    #pages {
+
+        .container-fluid {
+
+            .mainContent {
+
+                .row {
+
+                    .col-sm-6 {
+
+                        .card {
+
+                            img {
+                                height: 200px;
+                            }
+
+                            .card-body {
+
+                                h2 {
+                                    font-size: 25px;
+                                }
+
+                                p {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) { 
+    #pages {
+
+        .container-fluid {
+
+            .mainContent {
+
+                .row {
+
+                    .col-sm-6 {
+
+                        .card {
+
+                            img {
+                                height: 200px;
+                            }
+
+                            .card-body {
+
+                                h2 {
+                                    font-size: 21px;
+                                }
+
+                                p {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+    #pages {
+
+        .container-fluid {
+            height: 1000px;
+
+            .mainContent {
+
+                .row {
+
+                    .col-sm-6 {
+
+                        .card {
+
+                            img {
+                                height: 200px;
+                            }
+
+                            // .card-body {
+
+
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

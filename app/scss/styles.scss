@@ -1,3 +1,11 @@
-body {
-    color: red;
-}
+@import "variables";
+@import "global";
+@import "mainHeader";
+@import "aboutUs";
+@import "gallery";
+@import "pages";
+@import "service";
+@import "googleMap";
+@import "contact";
+@import "maps";
+@import "developer";

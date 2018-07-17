@@ -1,0 +1,51 @@
+#developer {
+
+    .container-fluid {
+        background: lightgrey;
+        width: 100%;
+        height: 678px;
+
+        .justify-content-center {
+            padding-right: 7%;
+            height: 93%;
+            width: 100%;
+
+            .col-md-3 {
+                margin-top: 50px;
+                height: 40%;
+                width: 100%;
+
+                .dev {
+                    opacity: 0;
+                    transform: translate(0,-40px);
+
+                    img { 
+                        border: 5px solid $w;
+                        height: 100%;
+                        width: 100%;
+
+                        &:hover {
+                            border: 5px solid $primary;
+                        }
+                    }
+                }
+
+                .show {
+                    opacity: 1 ;
+                    transition: .5s;
+                    transform: translate(0, 0);
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767.98px) { 
+     #developer {
+        height: 1880px;
+        background: lightgrey;
+    }
+
+}
+

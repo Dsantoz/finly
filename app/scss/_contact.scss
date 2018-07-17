@@ -1,0 +1,81 @@
+#contact {
+    background-color: grey;
+    height: 51px;
+    width: 100%;
+
+    .container-fluid {
+
+        footer {
+            
+            .row {
+                background-color: grey;
+                height: 50px;
+
+                .col-sm-12 {
+                    
+                    ul {
+                        height: 50px;
+                        margin: 0 auto;
+
+                        li {
+                            display: inline;
+                            float: right;
+                            padding: 7px 0;
+                            text-align: center;
+                            text-decoration: none;
+                            height: 100%;
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+
+}
+
+@media screen and (max-width: 991.98px) {
+    
+}
+
+@media screen and (max-width: 767.98px) {
+    
+}
+
+@media screen and (max-width: 575.98px) {
+    #contact {
+
+        .container-fluid {
+
+            footer {
+
+                .row {
+
+                    .col-sm-12 {
+
+                        ul {
+
+                            li {
+                                width: 50px;
+
+                                a {
+
+                                    i {
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+
+                        h6 {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

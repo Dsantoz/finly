@@ -1,0 +1,130 @@
+#service {
+    height: 550px;
+    width: 100%;
+
+    .container-fluid {
+
+        .row {
+
+            .col-sm-6 {
+                padding: 7% 10%;
+
+                .server {
+                    
+                    &:hover {
+                        -ms-transform: scale(1.5); /* IE 9 */
+                        -webkit-transform: scale(1.5); /* Safari 3-8 */
+                        transform: scale(1.5); 
+                    }
+                }
+
+                .server {
+                    height: 366px;
+                    width: 350px;
+                }
+
+                .title {
+                    text-transform: uppercase;
+                }
+
+                h1 {
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                .contact {
+                    height: 100px;
+                    width: 150px;
+                }
+
+                h5 {
+                    color: $primary;
+                }
+            }
+        }
+    }
+} 
+
+@media screen and (max-width: 1199.98px) { 
+
+}
+
+@media screen and (max-width: 991.98px) { 
+    #service {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 767.98px) { 
+    #service {
+
+        .container-fluid {
+
+            .row {
+
+                .col-sm-6 {
+
+                    .server {
+                        height: 250px;
+                        width: 250px;
+                    }
+
+                    .title {
+
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                    }
+
+                    .isi {
+                        
+                    }
+
+                    .contact {
+                        height: 85px;
+                        width: 85px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+    #service {
+        height: 700px;
+        .container-fluid {
+
+            .row {
+
+                .col-sm-6 {
+                    padding-top: 50px;
+                    text-align: center;
+                    
+                    .server {
+                    height: 200px;
+                    width: 200px;
+                    }
+
+                    .title {
+
+                    }
+
+                    h1 {
+                        font-size: 25px;
+                    }
+
+                    .isi {
+                        
+                    }
+
+                }
+            }
+        }
+    }
+}
